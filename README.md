@@ -179,8 +179,6 @@ These models help identify **high-risk bookings** and **high-value customers**.
 
 ## 🖼️ Project Screenshots
 
-> 📁 Create a folder named **`screenshots`** and upload images there
-
 ### 🔹 Power BI Dashboard
 ![Dashboard Overview](screenshots/dashboard_overview.png)
 
