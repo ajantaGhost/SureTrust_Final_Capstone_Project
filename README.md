@@ -91,9 +91,8 @@ Excel was used in the **initial data preparation phase**:
 SQL was used for **structured data storage and analysis**:
 - Stored cleaned data in relational tables  
 - Wrote SQL queries for:
-  - Aggregations (revenue, bookings, cancellations)  
+  - Aggregations (revenue, cancellations)  
   - Filtering by hotel type, room type, and booking status  
-  - Joining booking data with customer feedback data  
 - Enabled efficient querying for trend analysis and reporting  
 
 ---
@@ -122,7 +121,6 @@ Power BI was used for **interactive visualization and reporting**:
 - Implemented slicers for:
   - Hotel type  
   - Room type  
-  - Booking status  
   - Market segment  
 - Enabled business users to explore insights easily  
 
@@ -159,7 +157,7 @@ Business Insights & Recommendations
 ## 🤖 Machine Learning Models
 
 - **Random Forest Classifier**
-  - Predicts booking cancellation (Canceled / Not Canceled)
+  - Predicts booking cancellation (Cancelled / Not Cancelled)
 
 - **Linear Regression**
   - Estimates revenue trends  
@@ -173,23 +171,22 @@ These models help identify **high-risk bookings** and **high-value customers**.
 - Improved understanding of booking and cancellation patterns  
 - Accurate prediction of high-risk bookings  
 - Identification of revenue-driving customer segments  
-- Insights for pricing and occupancy optimization  
 
 ---
 
 ## 🖼️ Project Screenshots
 
 ### 🔹 Power BI Dashboard
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/PowerBI_Dashboard.png)
 
 ### 🔹 Booking Cancellation Analysis
-![Cancellation Analysis](screenshots/cancellation_analysis.png)
+![Cancellation Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/.png)
 
 ### 🔹 Revenue Analysis
-![Revenue Analysis](screenshots/revenue_analysis.png)
+![Revenue Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/)
 
 ### 🔹 Python EDA Visualizations
-![EDA Charts](screenshots/eda_charts.png)
+![EDA Charts](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/)
 
 ---
 
@@ -226,7 +223,7 @@ https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project
 
 ## 🙏 Acknowledgments
 
-- **SURE Trust – IERY** for the learning opportunity  
+- **SURE Trust** for the learning opportunity  
 - **Purnangshu Roy** for mentorship and guidance  
 - Faculty and peers for continuous support  
 
