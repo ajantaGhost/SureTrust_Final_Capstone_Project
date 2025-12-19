@@ -183,10 +183,10 @@ These models help identify **high-risk bookings** and **high-value customers**.
 ![Cancellation Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/cancellation_rate.png)
 
 ### 🔹 Revenue Analysis
-![Revenue Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/)
+![Revenue Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/monthly_revenue.png)
 
 ### 🔹 Python EDA Visualizations
-![EDA Charts](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/)
+![EDA Charts](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/Figure_1_matplotlib.png)
 
 ---
 
