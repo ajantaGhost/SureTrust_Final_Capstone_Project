@@ -180,7 +180,7 @@ These models help identify **high-risk bookings** and **high-value customers**.
 ![Dashboard Overview](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/PowerBI_Dashboard.png)
 
 ### 🔹 Booking Cancellation Analysis
-![Cancellation Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/.png)
+![Cancellation Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/cancellation_rate.png)
 
 ### 🔹 Revenue Analysis
 ![Revenue Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/)
