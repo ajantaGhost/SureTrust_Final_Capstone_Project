@@ -10,27 +10,27 @@
 ---
 
 ## 📑 Table of Contents
-- [Project Overview](#-project-overview)
-- [Project Objectives](#-project-objectives)
-- [Problem Statement](#-problem-statement)
-- [Tools & Technologies Used](#-tools--technologies-used)
-- [Work Done Using Excel](#-work-done-using-excel)
-- [Work Done Using SQL](#-work-done-using-sql)
-- [Work Done Using Python](#-work-done-using-python)
-- [Work Done Using Power BI](#-work-done-using-power-bi)
-- [Project Architecture](#-project-architecture)
-- [Key Features](#-key-features)
-- [Machine Learning Models](#-machine-learning-models)
-- [Results & Insights](#-results--insights)
-- [Project Screenshots](#-project-screenshots)
-- [Learning & Reflection](#-learning--reflection)
-- [Future Scope](#-future-scope)
-- [GitHub Repository](#-github-repository)
-- [Acknowledgments](#-acknowledgments)
-
+- [Project Overview](#project-overview)
+- [Project Objectives](#project-objectives)
+- [Problem Statement](#problem-statement)
+- [Tools & Technologies Used](#tools--technologies-used)
+- [Work Done Using Excel](#work-done-using-excel)
+- [Work Done Using SQL](#work-done-using-sql)
+- [Work Done Using Python](#work-done-using-python)
+- [Work Done Using Power BI](#work-done-using-power-bi)
+- [Project Architecture](#project-architecture)
+- [Key Features](#key-features)
+- [Machine Learning Models](#machine-learning-models)
+- [Results & Insights](#results--insights)
+- [Project Screenshots](#project-screenshots)
+- [Learning & Reflection](#learning--reflection)
+- [Future Scope](#future-scope)
+- [GitHub Repository](#github-repository)
+- [Acknowledgments](#acknowledgments)
+  
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The **Hotel Booking Intelligence Pipeline** is an **end-to-end data analytics and data science project** that transforms raw hotel booking data into **meaningful insights and predictive intelligence**.
 
@@ -38,7 +38,7 @@ The project integrates **Excel, SQL, Python, and Power BI** to analyze booking b
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Clean and preprocess raw hotel booking data  
 - Perform exploratory data analysis (EDA)  
@@ -50,7 +50,7 @@ The project integrates **Excel, SQL, Python, and Power BI** to analyze booking b
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 
 Hotels often struggle with high cancellation rates, uneven occupancy, and revenue loss. Manual analysis of booking data is inefficient and error-prone.
 
@@ -58,7 +58,7 @@ This project solves the problem by building an **automated intelligence pipeline
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 | Category | Tools |
 |------|------|
@@ -73,7 +73,7 @@ This project solves the problem by building an **automated intelligence pipeline
 
 ---
 
-## 📊 Work Done Using Excel
+## Work Done Using Excel
 
 Excel was used in the **initial data preparation phase**:
 - Removed duplicate records and handled missing values  
@@ -86,7 +86,7 @@ Excel was used in the **initial data preparation phase**:
 
 ---
 
-## 🗄️ Work Done Using SQL
+## Work Done Using SQL
 
 SQL was used for **structured data storage and analysis**:
 - Stored cleaned data in relational tables  
@@ -97,7 +97,7 @@ SQL was used for **structured data storage and analysis**:
 
 ---
 
-## 🐍 Work Done Using Python
+## Work Done Using Python
 
 Python was used for **data analysis and machine learning**:
 - Performed exploratory data analysis (EDA) using Pandas  
@@ -110,7 +110,7 @@ Python was used for **data analysis and machine learning**:
 
 ---
 
-## 📊 Work Done Using Power BI
+## Work Done Using Power BI
 
 Power BI was used for **interactive visualization and reporting**:
 - Built dynamic dashboards to monitor key KPIs  
@@ -126,25 +126,7 @@ Power BI was used for **interactive visualization and reporting**:
 
 ---
 
-## 🗂️ Project Architecture
-
-Raw Booking Data (CSV / Excel)
-↓
-Data Cleaning & Feature Engineering
-(Excel / Python)
-↓
-SQL Database
-(Storage & Querying)
-↓
-Exploratory Data Analysis
-(Python)
-↓
-Machine Learning Models
-↓
-Power BI Dashboard
-↓
-Business Insights & Recommendations
-
+## Project Architecture
 
 Raw Booking Data (CSV / Excel)
 ↓
@@ -162,7 +144,7 @@ Business Insights & Recommendations
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - End-to-end analytics pipeline  
 - Cancellation prediction using machine learning  
@@ -172,7 +154,7 @@ Business Insights & Recommendations
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 - **Random Forest Classifier**
   - Predicts booking cancellation (Cancelled / Not Cancelled)
@@ -184,7 +166,7 @@ These models help identify **high-risk bookings** and **high-value customers**.
 
 ---
 
-## 📈 Results & Insights
+## Results & Insights
 
 - Improved understanding of booking and cancellation patterns  
 - Accurate prediction of high-risk bookings  
@@ -192,7 +174,7 @@ These models help identify **high-risk bookings** and **high-value customers**.
 
 ---
 
-## 🖼️ Project Screenshots
+## Project Screenshots
 
 ### 🔹 Power BI Dashboard
 ![Dashboard Overview](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/PowerBI_Dashboard.png)
@@ -208,7 +190,7 @@ These models help identify **high-risk bookings** and **high-value customers**.
 
 ---
 
-## 🧠 Learning & Reflection
+## Learning & Reflection
 
 ### Technical Learnings
 - Hands-on experience with Excel, SQL, Python, and Power BI  
@@ -222,7 +204,7 @@ These models help identify **high-risk bookings** and **high-value customers**.
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Real-time data integration  
 - Advanced ML models (XGBoost, Neural Networks)  
