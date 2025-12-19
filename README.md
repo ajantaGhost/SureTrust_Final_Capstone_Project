@@ -130,6 +130,24 @@ Power BI was used for **interactive visualization and reporting**:
 
 Raw Booking Data (CSV / Excel)
 ↓
+Data Cleaning & Feature Engineering
+(Excel / Python)
+↓
+SQL Database
+(Storage & Querying)
+↓
+Exploratory Data Analysis
+(Python)
+↓
+Machine Learning Models
+↓
+Power BI Dashboard
+↓
+Business Insights & Recommendations
+
+
+Raw Booking Data (CSV / Excel)
+↓
 Data Cleaning & Feature Engineering (Excel / Python)
 ↓
 SQL Database (Storage & Querying)
