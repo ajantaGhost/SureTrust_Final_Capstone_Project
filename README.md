@@ -214,14 +214,14 @@ These models help identify **high-risk bookings** and **high-value customers**.
 
 ---
 
-## 🔗 GitHub Repository
+## GitHub Repository
 
 📂 **Project Link:**  
 https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **SURE Trust** for the learning opportunity  
 - **Purnangshu Roy** for mentorship and guidance  
