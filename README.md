@@ -15,9 +15,7 @@
 - [Problem Statement](#problem-statement)
 - [Tools & Technologies Used](#tools--technologies-used)
 - [Work Done Using Excel](#work-done-using-excel)
-- [Work Done Using SQL](#work-done-using-sql)
 - [Work Done Using Python](#work-done-using-python)
-- [Work Done Using Power BI](#work-done-using-power-bi)
 - [Project Architecture](#project-architecture)
 - [Key Features](#key-features)
 - [Machine Learning Models](#machine-learning-models)
@@ -34,7 +32,7 @@
 
 The **Hotel Booking Intelligence Pipeline** is an **end-to-end data analytics and data science project** that transforms raw hotel booking data into **meaningful insights and predictive intelligence**.
 
-The project integrates **Excel, SQL, Python, and Power BI** to analyze booking behavior, cancellation patterns, customer trends, and revenue performance. The final outcome supports **data-driven decision-making** for hotel management.
+The project integrates **Excel, Python** to analyze booking behavior, cancellation patterns, customer trends, and revenue performance. The final outcome supports **data-driven decision-making** for hotel management.
 
 ---
 
@@ -45,8 +43,7 @@ The project integrates **Excel, SQL, Python, and Power BI** to analyze booking b
 - Identify key factors influencing booking cancellations  
 - Build machine learning models to predict booking status  
 - Analyze revenue and customer behavior  
-- Create interactive dashboards for business decision-making  
-- Demonstrate a complete end-to-end data analytics workflow  
+- Demonstrate a end-to-end data analytics workflow  
 
 ---
 
@@ -66,7 +63,6 @@ This project solves the problem by building an **automated intelligence pipeline
 | Programming | Python |
 | Data Analysis | Pandas, NumPy |
 | Machine Learning | Scikit-learn |
-| Database | MySQL / SQL |
 | Visualization | Matplotlib, Seaborn |
 | Dashboarding | Power BI |
 | Version Control | Git, GitHub |
@@ -79,21 +75,10 @@ Excel was used in the **initial data preparation phase**:
 - Removed duplicate records and handled missing values  
 - Corrected data types and standardized formats  
 - Created derived columns such as:
-  - Stay Duration  
-  - Total Revenue  
+  - Total Nights
+  - Total Amount
 - Used filters, pivot tables, and formulas for preliminary analysis  
-- Prepared clean datasets for further processing in SQL and Python  
-
----
-
-## Work Done Using SQL
-
-SQL was used for **structured data storage and analysis**:
-- Stored cleaned data in relational tables  
-- Wrote SQL queries for:
-  - Aggregations (revenue, cancellations)  
-  - Filtering by hotel type, room type, and booking status  
-- Enabled efficient querying for trend analysis and reporting  
+- Prepared clean datasets for further processing in Python  
 
 ---
 
@@ -104,25 +89,8 @@ Python was used for **data analysis and machine learning**:
 - Visualized trends and patterns using Matplotlib and Seaborn  
 - Engineered features for modeling  
 - Built machine learning models:
-  - Random Forest for cancellation prediction  
-  - Linear Regression for revenue analysis  
+  - Linear Regression classification model to predict repeated hotel guests.
 - Evaluated model performance using appropriate metrics  
-
----
-
-## Work Done Using Power BI
-
-Power BI was used for **interactive visualization and reporting**:
-- Built dynamic dashboards to monitor key KPIs  
-- Created charts for:
-  - Booking trends  
-  - Cancellation rates  
-  - Revenue by room type and hotel category  
-- Implemented slicers for:
-  - Hotel type  
-  - Room type  
-  - Market segment  
-- Enabled business users to explore insights easily  
 
 ---
 
@@ -132,13 +100,9 @@ Raw Booking Data (CSV / Excel)
 ↓
 Data Cleaning & Feature Engineering (Excel / Python)
 ↓
-SQL Database (Storage & Querying)
-↓
 Exploratory Data Analysis (Python)
 ↓
 Machine Learning Models
-↓
-Power BI Dashboard
 ↓
 Business Insights & Recommendations
 
@@ -147,55 +111,44 @@ Business Insights & Recommendations
 ## Key Features
 
 - End-to-end analytics pipeline  
-- Cancellation prediction using machine learning  
-- Revenue and customer behavior analysis  
-- Interactive Power BI dashboards  
+- Cancellation and prediction using machine learning  
+- Customer behavior analysis  
 - Business-focused insights and recommendations  
 
 ---
 
 ## Machine Learning Models
 
-- **Random Forest Classifier**
-  - Predicts booking cancellation (Cancelled / Not Cancelled)
-
-- **Linear Regression**
-  - Estimates revenue trends  
-
-These models help identify **high-risk bookings** and **high-value customers**.
+- **Logistic Regression**
+  - Logistic Regression to classify guests as Repeated or Not Repeated.
 
 ---
 
 ## Results & Insights
 
-- Improved understanding of booking and cancellation patterns  
-- Accurate prediction of high-risk bookings  
-- Identification of revenue-driving customer segments  
+- Identified key factors influencing cancellations and revenu
+- Predictive models enabled early identification of high-risk bookings
 
 ---
 
 ## Project Screenshots
 
-### 🔹 Power BI Dashboard
-![Dashboard Overview](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/PowerBI_Dashboard.png)
-
-### 🔹 Booking Cancellation Analysis
-![Cancellation Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/cancellation_rate.png)
-
-### 🔹 Revenue Analysis
-![Revenue Analysis](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/monthly_revenue.png)
+### 🔹 Excel Pivot Tables
+![Pivot](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/PIVOT.png)
 
 ### 🔹 Python EDA Visualizations
-![EDA Charts](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/Figure_1_matplotlib.png)
+![EDA Charts](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/image_corellation.png)
+
+### 🔹 Python EDA Visualizations
+![EDA Charts](https://github.com/ajantaGhost/SureTrust_Final_Capstone_Project/blob/main/Image/confusion_matrix.png)
 
 ---
 
 ## Learning & Reflection
 
 ### Technical Learnings
-- Hands-on experience with Excel, SQL, Python, and Power BI  
+- Hands-on experience with Excel, Python
 - Building and evaluating machine learning models  
-- Creating business-friendly dashboards  
 
 ### Professional Learnings
 - Project planning and documentation  
@@ -208,7 +161,6 @@ These models help identify **high-risk bookings** and **high-value customers**.
 
 - Real-time data integration  
 - Advanced ML models (XGBoost, Neural Networks)  
-- Inclusion of external factors such as seasonality  
 - Automated alerts and recommendations  
 - Customer segmentation and personalization  
 
