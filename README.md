@@ -64,7 +64,6 @@ This project solves the problem by building an **automated intelligence pipeline
 | Data Analysis | Pandas, NumPy |
 | Machine Learning | Scikit-learn |
 | Visualization | Matplotlib, Seaborn |
-| Dashboarding | Power BI |
 | Version Control | Git, GitHub |
 
 ---
